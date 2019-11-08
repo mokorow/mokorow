@@ -1,0 +1,165 @@
+/*header部分のコード*/
+ul{
+    list-style: none;
+}
+header{
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.inner {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: #1F91BE;
+    font-size: 31px;
+    padding-left: 100px;
+}
+.list{
+    padding-right: 100px;
+}
+
+.list li{
+    padding-left: 34px;
+    font-size: 16px;
+}
+
+/*top部分のコード*/
+.top{
+    max-width: 100%;
+    padding-bottom: 100px;
+}
+/*メイン画像下部の半分部分のコード*/
+.side-wrapper{
+  width: 23.43%;
+  margin-left: 6.25%;
+  margin-right: 7.81%;
+}
+.article-wrapper{
+  margin-left: 7.81%;
+  width: 54.68%;
+}
+
+/*about部分のコード*/
+.about1{
+  max-width: 45.71%;
+  margin-right: 8.57%;
+}
+.about2{
+  max-width: 45.71%;
+}
+
+.title{
+    font-size: 32px;
+    color: #1F91BE;
+}
+.border{
+    border: 4px solid#1F91BE;
+    margin-bottom: 30px;
+}
+.subtext{
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.line{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.contents-wrapper, line{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.about-img{
+    margin-bottom: 30px;
+    width: 100%;
+}
+/*news部分のコード*/
+.day{
+    font-size: 14px;
+    font-weight: bold;
+    width: 18%;
+    margin-right: 2.85%;
+}
+.text{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    width: 79.28%;
+}
+.news-area{
+    border-bottom: 1px solid #6F6F6F;
+    margin-bottom: 20px;
+}
+.news-link{
+    display: flex;
+    border: 2px solid#1F91BE;
+    color: #1F91BE;
+    font-size: 16px;
+    font-weight: bold;
+
+    height: 40px;
+    width:  148px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 60px;
+}
+.news-link-area{
+    display: flex;
+    justify-content: flex-end;
+}
+/*photo部分のコード*/
+.photo{
+    display: flex;
+    flex-direction: column;
+}
+.photo-size2{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/*category部分のコード*/
+.title2{
+    font-size: 24px;
+    color: #1F91BE;
+    margin-top: 10px;
+}
+.category li{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.category{
+    max-width: 700px;
+}
+/*footer部分のコード*/
+footer{
+    background-color: #C7C7C7;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-top: 40px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
