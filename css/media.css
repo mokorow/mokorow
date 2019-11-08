@@ -1,0 +1,143 @@
+@media (max-width: 768px ) {
+    /*header部分のコード*/
+    .flex{
+        align-content: flex-start;
+        padding: initial;
+    }
+    .inner{
+        display: block;
+        padding-left: 15px;
+    }
+
+    .logo{
+        font-size: 18px;
+        padding: initial;
+        padding-top: 20px;
+    }
+    .list li{
+        font-size: 14px;
+        font-weight: bold;
+        padding: initial;
+        margin: 10px 12px 0 0;
+    }
+
+    .top{
+        padding: initial;
+        margin: 20px 0 40px 0;
+    }
+    .contents-wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .article-wrapper, .side-wrapper{
+        margin: initial;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        width: 100%;
+        padding: 0 4.16%;
+    }
+    .side-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    /*about部分のコード*/
+    .title{
+        font-size: 22px;
+    }
+    .border{
+        border: 3px solid#1F91BE;
+        margin: initial;
+        margin-bottom: 20px;
+    }
+    .about-img{
+        padding: initial;
+        margin-bottom: 20px;
+        
+    }
+    .about{
+        width: 100%;
+    }
+    .about1, .about2{
+        max-width: 100%;
+        margin: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .line{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subtext{
+        padding: initial;
+        margin: initial;
+    }
+    .about1 p{
+        margin-bottom: 40px;
+    }
+    .about2 p {
+        margin-bottom: 60px;
+    }
+
+    /*news部分のコード*/
+    .news-link{
+        font-size: 14px;
+    }
+    .news-link-area{
+        display: flex;
+        justify-content: center;
+    }
+    .day{
+        margin: initial;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    .text, .news-l{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    /*photo部分のコード*/
+    .photo{
+        padding: initial;
+    }
+    .photo-size2{
+        margin: initial;
+        margin-bottom: 20px;
+    }
+    /*category部分のコード*/
+    .title2{
+        font-size: 22px;
+    }
+    .category{
+        width: 100%;
+        margin-top: 28px;
+    }
+    .category li{
+        padding: initial;
+        padding-bottom: 13px;
+        font-size: 14px;
+    }
+
+    /*footer部分のコード*/
+    footer{
+        font-size: 10px;
+        margin-top: initial;
+        margin-top: 47px;
+        height: 40px;
+    }
+}
+@media (min-width: 1280px ) {
+    header, .top, .contents-wrapper{
+        width: 100%;
+    } 
+}
+
