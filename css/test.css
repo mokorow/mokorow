@@ -6,7 +6,6 @@ header{
     height: 75px;
     display: flex;
     align-items: center;
-    font-size:500px;
 }
 .inner {
     width: 100%;
