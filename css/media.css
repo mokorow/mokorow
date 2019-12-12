@@ -1,0 +1,308 @@
+@media (max-width: 768px ) {
+    header{
+        height: 65px;
+        box-shadow: 0 0 8px gray;
+    }
+    .inner{
+        display: none;
+    }
+    .logo2, .logo3{
+        display: block;
+    }
+    .inner-sp{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 15px;
+    }
+    .footer-end{
+        height: 40px;
+        margin-top: 23px;
+    }
+    .inner3{
+        display: none;
+    }
+    .inner4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .separate{
+        border: none;
+    }
+    .inner4 p{
+        padding-bottom: 12px;
+    }
+    
+    .logo img{
+        max-width: 90px;
+    }
+    .pad30{
+        padding: initial;
+    }
+    .pad10{
+        padding: initial;
+        padding: 8px 0;
+    }
+    .logo{
+        padding: 20px 0 30px 0;
+    }
+    p.text1, div.text3{
+        font-size: 14px;
+    }
+
+
+    /*トップページ*/
+    .top-mes{
+        position: initial;
+        writing-mode: initial;
+
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .text-concept{
+        font-size: 16px;
+    }
+    .mes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 42px;
+    }
+    
+    .text5{
+        font-family: "游ゴシック体", YuGothic;
+        font-size: 4.8vw;
+        font-weight: Bold;
+        color: #295525;
+        padding: initial;
+    }
+    .top-mes2{
+        padding: 18px 0;
+    }
+    .top{
+        padding-bottom: initial;
+        padding-bottom: 30px;
+    }
+
+    .pad-logo{
+        max-width: 80px;
+        padding-bottom: initial;
+        padding-bottom: 20px;
+    }
+    .text-title{
+        font-size: 24px;
+    }
+    .pad-logo2{
+        width: 200px;
+        padding-bottom: initial;
+        padding-bottom: 30px;
+    }
+    .comit-content1, .comit-content2, .comit-content3{
+        display: initial;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 340px;
+    }
+    .weed{
+        display: none;
+    }
+    .comit-top{
+        width: 340px;
+        min-height: 228px;
+    }
+    .pad70{
+        padding: initial;
+        padding: 35px 0 30px 0;
+    }
+
+    .collapse{
+        width: 250px;
+        padding: initial;
+        padding: 30px 0 30px 0;
+    }
+    .comit-logo{
+        width: 60px;
+    }
+    .text6{
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+    .comit-text{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .logo-subtitle{
+        margin: 30px 0 30px 0;
+    }
+    .pad-comit1,.pad-comit2,.pad-comit3{
+        margin: initial;
+    }
+    .pad-comit-logo1, .pad-comit-logo2, .pad-comit-logo3{
+        margin: initial;
+    }
+    /*オンラインストア*/
+    .online-store{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product{
+        max-width: 330px;
+    }
+    .s-set{
+        max-width: initial;
+        width: 300px;
+    }
+    .padw45{
+        margin: 30px 0;
+    }
+    .center{
+        padding-bottom: initial;
+        padding-bottom: 60px;
+    }
+    .button{
+        height: 50px;
+        font-size: 18px;
+    }
+    /*お知らせ*/
+    .news-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .news-photo{
+        width: 310px;
+    }
+    
+    .news-category{
+        width: 310px;
+    }
+    .news-list{
+        width: 330px;
+    }
+    .news-box-horizontal{
+        display: flex;
+        flex-direction: column;
+    }
+    .news-photo2{
+        width: 310px;
+        margin: 10px;
+    }
+    .news-list2{
+        width: 330px;
+    }
+    .text-category2{
+        font-size: 12px;
+        font-weight: Bold;
+
+        width: 82px;
+        height: 20px;
+
+        top: 10px;
+        right: 10px;
+    }
+    .news-category2{
+        width: 330px;
+    }
+    .text1-2{
+        font-size: 18px;
+    }
+    .text2-2{
+        font-size: 14px;
+    }
+
+/*親子イベント*/
+    .collapse2{
+        padding: initial;
+        padding: 30px 0 30px 0;
+    }
+    .event-year{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        padding: initial;
+        padding: 27px 62px 34px 62px;
+    }
+    .arrow{
+        transform: rotate(90deg);
+        width: 50px;
+        height: 65px;
+        
+    }
+    .arrow-center{
+        padding: initial;
+    }
+    .pad-6{
+        padding: initial;
+    }
+    .pad-top{
+        margin: initial;
+    }
+/*当園について*/
+    .text-aboutus{
+        font-size: 16px;
+        padding: initial;
+        padding-top: 37px;
+    }
+    .aboutus-content{
+        display: flex;
+        flex-direction: column;
+
+        width: 340px;
+    }
+    .aboutus-photo{
+        padding-top: 30px;
+    }
+    .text-9,.text-10{
+        font-size: 16px;
+    }
+    .text-9{
+        width: 100px;
+    }
+    .text-10{
+        width: 150px;
+    }
+    .end{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+@media (min-width: 1280px ) {
+    header, .top, .contents-wrapper{
+        width: 100%;
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 1080px  ) {
+    .event-back{
+        width: 18vw;
+    }
+    .event-logo{
+        width: 8.5vw;
+    }
+    
+}
+@media(max-width: 1080px  ) {
+    .gallery-photo{
+    width: 27.778vw;
+    height: 27.778vw;
+
+    margin: initial;
+    margin: 5px;
+    }
+}
