@@ -5,10 +5,14 @@ img.top-photo{
 .top{
     position: relative;
     padding-bottom: 50px;
+    background-color: #ffffff;
 }
 .top-mes{
     position: absolute;
     
+}
+.online-store{
+    background-color: #ffffff;
 }
 
 .top-mes1{
@@ -128,7 +132,7 @@ img.top-photo{
     align-items: center;
     justify-content: center;
 }
-.button {
+.button{
     width:220px;
     height: 62px;
 
@@ -383,4 +387,54 @@ img.top-photo{
 .store-photo{
     width: 220px;
     height: 220px;
+}
+.form-1{
+    display: flex;
+    flex-direction: row;
+    display: block;
+    text-align: left;
+}
+.form{
+    border: 3px solid #090803;
+}
+
+
+.head-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.under-none{
+    text-decoration: none;
+}
+
+.contact-center{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.contact-center-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.wpcf7-form-control p.submit    {text-align: center}
+
+.button-1{
+    width: 220px;
+    height: 62px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #295525;
+    border-radius:50px;
+
+    font-family: "游ゴシック体", YuGothic;
+    font-size: 22px;
+    font-weight: Bold;
+    color:  #ffffff;
 }
